@@ -20,6 +20,14 @@ a {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+@mixin flexCenter($dir) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: center;
+  align-items: center;
+}
+$primaryBtn: #59a0d5;
+$textBlue: #112e66;
 
 @import './hero';
 @import './navbar';

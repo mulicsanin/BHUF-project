@@ -5,16 +5,13 @@
     align-items: center;
     box-shadow: 0px 3px 12px #ededed;
     .sec {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      @include flexCenter(column);
       .num {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 800;
         font-size: 48px;
         line-height: 61px;
-        color: #112e66;
+        color: $textBlue;
       }
       .desc {
         font-weight: normal;
@@ -26,17 +23,12 @@
     }
   }
   .showcase {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter(row);
     .left {
       display: flex;
       flex-direction: column;
       .part {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+        @include flexCenter(row);
         max-height: 291px;
         overflow: hidden;
       }
@@ -45,10 +37,7 @@
   .showcase-text {
     max-width: 277px;
     min-height: 291px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter(column);
     padding: 25px;
   }
   .showcase-text-right {
@@ -58,7 +47,6 @@
     flex-direction: column;
     justify-content: center;
     padding: 25px;
-    //position: absolute;
   }
   .title {
     font-weight: bold;
@@ -72,13 +60,13 @@
     line-height: 15px;
   }
   .up-text-bg {
-    background-color: #59a0d5;
+    background-color: $primaryBtn;
   }
   .down-text-bg {
     background-color: #ffcd06;
   }
   .right-text-bg {
-    background: #112e66;
+    background: $textBlue;
     position: relative;
     top: -5px;
   }

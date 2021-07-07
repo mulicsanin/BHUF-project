@@ -7,7 +7,7 @@
     font-size: 14px;
     line-height: 17px;
     &:hover {
-      color: #59a0d5;
+      color: $primaryBtn;
     }
   }
   .navbar-menu.is-active {
@@ -21,12 +21,12 @@
   }
   button {
     color: #ffffff;
-    background: #59a0d5;
+    background: $primaryBtn;
     font-weight: 600;
     font-size: 16px;
     line-height: 19px;
     border-radius: 0;
-    border-color: #59a0d5;
+    border-color: $primaryBtn;
     box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.12);
   }
 }

@@ -3,10 +3,7 @@
   display: flex;
 
   .header-text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter(column);
     max-width: 842px;
     margin-left: auto;
     margin-right: auto;

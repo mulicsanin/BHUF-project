@@ -3,7 +3,7 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 170.8%;
-    color: #112e66;
+    color: $textBlue;
     margin: 20px 0;
   }
   .content {
@@ -16,7 +16,7 @@
       font-size: 24px;
       line-height: 29px;
       text-transform: capitalize;
-      color: #112e66;
+      color: $textBlue;
     }
     .subtitle {
       font-weight: normal;

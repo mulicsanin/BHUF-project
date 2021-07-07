@@ -1,7 +1,5 @@
 #AboutUs {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flexCenter(row);
   .aboutUs {
     width: 546px;
     .title {
@@ -9,12 +7,12 @@
       font-size: 40px;
       line-height: 48px;
       letter-spacing: -0.04em;
-      color: #112e66;
+      color: $textBlue;
     }
     .about-text {
       font-size: 16px;
       line-height: 28px;
-      color: #112e66;
+      color: $textBlue;
       margin-bottom: 20px;
     }
     .button {
@@ -25,10 +23,7 @@
   @media only screen and (max-width: 800px) {
     .aboutUs {
       width: initial;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      @include flexCenter(column);
       .title {
         text-align: center;
       }

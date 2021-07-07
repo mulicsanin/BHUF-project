@@ -6,7 +6,7 @@
     justify-content: space-between;
     margin-bottom: 30px;
     p {
-      color: #112e66;
+      color: $textBlue;
       font-family: Inter;
       font-style: normal;
       font-weight: bold;
@@ -22,7 +22,7 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 170.8%;
-    color: #112e66;
+    color: $textBlue;
   }
   .event-wrapper {
     display: flex;
@@ -36,11 +36,10 @@
       display: flex;
       flex-direction: column;
       justify-content: center;
-
       .num {
         background: #eeeeee;
         text-align: center;
-        color: #112e66;
+        color: $textBlue;
         font-weight: bold;
         font-size: 20px;
         line-height: 24px;
@@ -49,7 +48,7 @@
       }
       .month {
         text-align: center;
-        background: #112e66;
+        background: $textBlue;
         color: #eeeeee;
         font-weight: bold;
         font-size: 12px;
@@ -62,7 +61,7 @@
       font-weight: 600;
       font-size: 16px;
       line-height: 19px;
-      color: #112e66;
+      color: $textBlue;
       width: 150px;
     }
   }
@@ -70,11 +69,10 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     .num {
       background: #eeeeee;
       text-align: center;
-      color: #112e66;
+      color: $textBlue;
       font-weight: bold;
       font-size: 20px;
       line-height: 24px;
@@ -83,7 +81,7 @@
     }
     .month {
       text-align: center;
-      background: #112e66;
+      background: $textBlue;
       color: #eeeeee;
       font-weight: bold;
       font-size: 12px;
@@ -104,7 +102,7 @@
             font-weight: 600;
             font-size: 26px;
             line-height: 29px;
-            color: #112e66;
+            color: $textBlue;
           }
         }
       }
@@ -113,9 +111,13 @@
       }
     }
     .button {
-      color: #59a0d5;
+      color: $primaryBtn;
       border: none;
     }
+  }
+  .swiper-container {
+    width: initial;
+    height: initial;
   }
   @media only screen and (max-width: 1200px) {
     .setM {
@@ -134,10 +136,7 @@
     }
     .card {
       max-width: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      @include flexCenter(column);
     }
   }
 }

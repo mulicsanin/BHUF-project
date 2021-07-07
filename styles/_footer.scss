@@ -4,15 +4,10 @@
       url('../public//images/Social-Media.png');
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flexCenter(row);
     min-height: 350px;
     .up-text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
+      @include flexCenter(column);
       .title {
         font-weight: bold;
         font-size: 48px;
@@ -32,7 +27,7 @@
         font-size: 16px;
         line-height: 19px;
         text-align: center;
-        color: #112e66;
+        color: $textBlue;
         width: 250px;
       }
     }
@@ -72,7 +67,7 @@
           font-weight: 600;
           font-size: 16px;
           line-height: 19px;
-          color: #112e66;
+          color: $textBlue;
         }
         .sum-text {
           font-size: 14px;
