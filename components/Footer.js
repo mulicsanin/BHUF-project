@@ -19,7 +19,7 @@ export default class Footer extends Component {
                     <div className="container">
                         <div className="foot-d"> 
                             <div className="foot-logo">
-                                <Image src={Logo2} width={205} height={85} />
+                                <Image src={Logo2} alt="LOGO" width={205} height={85} />
                                 <p>Eget faucibus id feugiat nunc, sit dis augue nisi. Nulla nisl donec faucibus eget porta diam suspendisse. Pretium porttitor nunc quam vel. Mauris platea eget dictum volutpat.</p>
                             </div>
                             <div className="foot-text">

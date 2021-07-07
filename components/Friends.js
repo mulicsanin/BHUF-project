@@ -16,12 +16,12 @@ export default class Friends extends Component {
                         <div className="column">
                            <p>Friend of BHEF</p>
                             <div className="friends">
-                                <Image src={friend1}/>
-                                <Image src={friend2}/>
-                                <Image src={friend3}/>
-                                <Image src={friend4}/>
-                                <Image src={friend5}/>
-                                <Image src={friend6}/>
+                                <Image src={friend1} alt="friend"/>
+                                <Image src={friend2} alt="friend"/>
+                                <Image src={friend3} alt="friend"/>
+                                <Image src={friend4} alt="friend"/>
+                                <Image src={friend5} alt="friend"/>
+                                <Image src={friend6} alt="friend"/>
                             </div>
                         </div>
                     </div>

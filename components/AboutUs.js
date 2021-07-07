@@ -15,7 +15,7 @@ export default class AboutUs extends Component {
                             </div>
                         </div>
                         <div className="column">
-                            <Image src={aboutImage} width={660} height={520}/>
+                            <Image src={aboutImage} alt="about" width={660} height={520}/>
                         </div>
                     </div>
                 </div>

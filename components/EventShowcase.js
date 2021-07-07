@@ -14,7 +14,7 @@ export default class EventShowcase extends Component {
                         <div className="column" style={{marginBottom:'50px'}}>
                             <div className="card">
                                 <div className="card-image">
-                                    <Image src={eventVideo1} width={432} height={250}/>
+                                    <Image src={eventVideo1} alt="event" width={432} height={250}/>
                                 </div>
                                 <div className="content">
                                     <p className="title">Dictum proin nibh amet</p>
@@ -26,7 +26,7 @@ export default class EventShowcase extends Component {
                         <div className="column">
                             <div className="card">
                                 <div className="card-image">
-                                    <Image src={eventVideo2} width={432} height={250}/>
+                                    <Image src={eventVideo2} alt="event" width={432} height={250}/>
                                 </div>
                                 <div className="content">
                                     <p className="title">Semper turpis nulla vel</p>
@@ -38,7 +38,7 @@ export default class EventShowcase extends Component {
                         <div className="column">
                             <div className="card">
                                 <div className="card-image">
-                                    <Image src={eventVideo3} width={432} height={250}/>
+                                    <Image src={eventVideo3} alt="event" width={432} height={250}/>
                                 </div>
                                 <div className="content">
                                     <p className="title">Donec ultrices tristique amet</p>

@@ -61,7 +61,7 @@ export default class Acitivty extends Component {
                                     <div className="card">
                                         <div className="card-image">
                                             <figure className="image is-6by2">
-                                                <Image src={activity1}/>
+                                                <Image src={activity1} alt="activity"/>
                                             </figure>
                                         </div>
                                         <div className="card-content">
@@ -115,7 +115,7 @@ export default class Acitivty extends Component {
                                     <div className="card">
                                         <div className="card-image">
                                             <figure className="image is-6by2">
-                                                <Image src={activity3}/>
+                                                <Image src={activity3} alt="activity"/>
                                             </figure>
                                         </div>
                                         <div className="card-content">
