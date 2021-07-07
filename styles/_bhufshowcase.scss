@@ -110,4 +110,17 @@
       }
     }
   }
+  @media only screen and (max-width: 480px) {
+    .part {
+      margin: 10px 0;
+    }
+    .right {
+      margin: 10px 0;
+      display: flex;
+      flex-direction: column;
+    }
+    .numbers {
+      display: initial;
+    }
+  }
 }

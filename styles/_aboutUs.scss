@@ -32,4 +32,15 @@
       }
     }
   }
+  @media only screen and (max-width: 480px) {
+    .aboutUs {
+      .title {
+        font-size: 25px;
+      }
+      .about-text {
+        line-height: initial;
+        font-size: 15px;
+      }
+    }
+  }
 }

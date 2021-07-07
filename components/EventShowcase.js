@@ -10,8 +10,8 @@ export default class EventShowcase extends Component {
             <section className="section" id="EventShowcase">
                 <div className="container" style={{borderTop: '1px solid #eeeeee'}}>
                     <p className="tit">EVENT SHOWCASE</p>
-                    <div className="columns">
-                        <div className="column" style={{marginBottom:'50px'}}>
+                    <div className="columns" style={{marginBottom:'50px'}}>
+                        <div className="column" >
                             <div className="card">
                                 <div className="card-image">
                                     <Image src={eventVideo1} alt="event" width={432} height={250}/>

@@ -97,4 +97,22 @@
       margin-bottom: 30px;
     }
   }
+  @media only screen and (max-width: 480px) {
+    .foot-up {
+      .up-text {
+        .title {
+          font-size: 30px;
+        }
+      }
+    }
+    .foot-down {
+      .foot-logo {
+        @include flexCenter(column);
+        text-align: justify;
+        p {
+          margin-top: 10px;
+        }
+      }
+    }
+  }
 }

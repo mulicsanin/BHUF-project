@@ -115,10 +115,7 @@
       border: none;
     }
   }
-  .swiper-container {
-    width: initial;
-    height: initial;
-  }
+
   @media only screen and (max-width: 1200px) {
     .setM {
       margin-left: auto;
@@ -137,6 +134,36 @@
     .card {
       max-width: 100%;
       @include flexCenter(column);
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .upcoming {
+      width: max-content;
+    }
+    .event-wrapper {
+      display: block;
+      .event-text {
+        font-size: 12px;
+        margin: 10px 0;
+        width: initial;
+      }
+    }
+    .columns {
+      margin: 10px 0;
+    }
+    .card {
+      .card-content {
+        .media {
+          .media-content {
+            .title {
+              font-size: 20px;
+            }
+          }
+        }
+        .content {
+          font-size: 12px;
+        }
+      }
     }
   }
 }

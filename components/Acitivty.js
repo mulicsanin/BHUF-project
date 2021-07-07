@@ -50,15 +50,15 @@ export default class Acitivty extends Component {
                                 <p className="event-text">
                                 In vitae molestie lacus feugiat.
                                 </p>
-                                <FontAwesomeIcon icon={faArrowRight} style={{ color: '#0D1C2E', height:'20px'}}/>
+                                <FontAwesomeIcon icon={faArrowRight} style={{color: '#0D1C2E', height:'20px'}}/>
                             </div>
                             <button className="button is-info is-medium is-fullwidth" style={{marginTop:'20px'}}>View All Events</button>
                        </div>
 
                         <div className="column is-12-tablet setM">
-                            <div className="columns ">
+                            <div className="columns carousel">
                                 <div className="column">
-                                    <div className="card">
+                                    <div className="card card-1">
                                         <div className="card-image">
                                             <figure className="image is-6by2">
                                                 <Image src={activity1} alt="activity"/>
@@ -85,7 +85,7 @@ export default class Acitivty extends Component {
                                     </div>
                                 </div>
                                 <div className="column">
-                                    <div className="card">
+                                    <div className="card card-2">
                                         <div className="card-image">
                                             <figure className="image is-6by2">
                                                 <Image src={activity2} alt="activity"/>
@@ -112,7 +112,7 @@ export default class Acitivty extends Component {
                                     </div>
                                 </div>
                                 {/* <div className="column">
-                                    <div className="card">
+                                    <div className="card card-3">
                                         <div className="card-image">
                                             <figure className="image is-6by2">
                                                 <Image src={activity3} alt="activity"/>

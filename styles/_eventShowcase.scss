@@ -32,6 +32,9 @@
     margin-right: auto;
   }
   @media only screen and (max-width: 800px) {
+    .container {
+      @include flexCenter(column);
+    }
     .content {
       align-items: center;
     }
@@ -40,7 +43,7 @@
       justify-content: center;
     }
     .button {
-      margin-left: 35%;
+      margin: auto;
     }
   }
 }
