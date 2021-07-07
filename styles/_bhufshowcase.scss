@@ -1,0 +1,125 @@
+#BHUFShowcase {
+  .numbers {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 3px 12px #ededed;
+    .sec {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .num {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 61px;
+        color: #112e66;
+      }
+      .desc {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 170.8%;
+        text-align: center;
+        color: #112e66;
+      }
+    }
+  }
+  .showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .left {
+      display: flex;
+      flex-direction: column;
+      .part {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        max-height: 291px;
+        overflow: hidden;
+      }
+    }
+  }
+  .showcase-text {
+    max-width: 277px;
+    min-height: 291px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+  }
+  .showcase-text-right {
+    max-width: 546px;
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    //position: absolute;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+  }
+  .subtitle {
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .up-text-bg {
+    background-color: #59a0d5;
+  }
+  .down-text-bg {
+    background-color: #ffcd06;
+  }
+  .right-text-bg {
+    background: #112e66;
+    position: relative;
+    top: -5px;
+  }
+
+  @media only screen and (max-width: 860px) {
+    .showcase {
+      flex-direction: column;
+      .left {
+        .part {
+          align-items: initial;
+          max-height: initial;
+          flex-direction: column;
+        }
+      }
+    }
+    .right {
+      display: flex;
+    }
+    .right-text-bg {
+      top: 0;
+    }
+    .up-text-bg {
+      width: 100%;
+    }
+    .showcase-text {
+      min-height: initial;
+      height: 200px;
+      max-width: initial;
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .part {
+      flex-direction: column;
+    }
+    .numbers {
+      .sec {
+        .num {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}

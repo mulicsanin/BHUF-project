@@ -1,0 +1,46 @@
+#EventShowcase {
+  .tit {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170.8%;
+    color: #112e66;
+    margin: 20px 0;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    .title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+      text-transform: capitalize;
+      color: #112e66;
+    }
+    .subtitle {
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 17px;
+      color: #6d7286;
+    }
+  }
+  .button {
+    padding: 0 30px;
+    width: 220px;
+    margin-left: 40%;
+    margin-right: auto;
+  }
+  @media only screen and (max-width: 800px) {
+    .content {
+      align-items: center;
+    }
+    .card-image {
+      display: flex;
+      justify-content: center;
+    }
+    .button {
+      margin-left: 35%;
+    }
+  }
+}

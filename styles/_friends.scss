@@ -1,0 +1,25 @@
+#Friends {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 150px;
+  line-height: 207px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #d7d7da;
+  position: relative;
+  overflow: hidden;
+  p {
+    position: absolute;
+    width: 100%;
+    top: -70px;
+    mix-blend-mode: luminosity;
+    opacity: 0.21;
+  }
+  .friends {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

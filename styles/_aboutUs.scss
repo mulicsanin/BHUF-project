@@ -1,0 +1,40 @@
+#AboutUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .aboutUs {
+    width: 546px;
+    .title {
+      font-weight: bold;
+      font-size: 40px;
+      line-height: 48px;
+      letter-spacing: -0.04em;
+      color: #112e66;
+    }
+    .about-text {
+      font-size: 16px;
+      line-height: 28px;
+      color: #112e66;
+      margin-bottom: 20px;
+    }
+    .button {
+      padding: 20px 60px;
+      color: #ffffff;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .aboutUs {
+      width: initial;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .title {
+        text-align: center;
+      }
+      .about-text {
+        text-align: justify;
+      }
+    }
+  }
+}
