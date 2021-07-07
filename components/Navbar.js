@@ -37,7 +37,7 @@ export default class Navbar extends Component {
                     <div className="navbar-brand">
                         <Link href="#Hero">
                             <a className="navbar-item">
-                                <Image src={Logo} alt="LOGO" width={170} height={68}/>
+                                <Image src={Logo} alt="LOGO" width={170} height={68} className='image' />
                             </a>
                         </Link>
                         <a role="button" onClick={handleBurger} className="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">

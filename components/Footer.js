@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faInstagram, faLinkedin, faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faInstagram, faLinkedin, faFacebook, faTwitter, faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import Logo2 from '../public/images/Logo2.png';
 import Image from 'next/image';
 export default class Footer extends Component {
@@ -11,7 +11,8 @@ export default class Footer extends Component {
                     <div className="up-text">
                         <p className="title">Join Our Comunity</p>
                         <p className="subtitle">Followers across the globe</p>
-                        <button className="button is-medium is-warning"><FontAwesomeIcon icon={faInstagram} style={{ color: '#112e66', height:'20px', marginRight:'10px'}}/>{' '} Follow Us</button>
+                        <button className="button is-medium"> <FontAwesomeIcon icon={faInstagram} style={{ color: '#112e66', height:'20px', marginRight:'10px'}}/>{' '} Follow Us</button>
+                        <p className="subtitle">We are also on: <FontAwesomeIcon icon={faFacebookF} style={{margin:'0 10px', height:'20px', color:'#ffffff'}}/> <span className="spanIcon">Facebook</span>  <FontAwesomeIcon icon={faTwitter} style={{margin:'0 10px', height:'20px', color:'#ffffff'}}/> <span className="spanIcon">Twitter</span> </p>
                     </div>
                 </div>
                 

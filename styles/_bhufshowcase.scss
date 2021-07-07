@@ -4,6 +4,7 @@
     justify-content: space-around;
     align-items: center;
     box-shadow: 0px 3px 12px #ededed;
+    padding: 20px 0;
     .sec {
       @include flexCenter(column);
       .num {

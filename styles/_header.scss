@@ -10,10 +10,10 @@
     text-align: center;
     margin-top: 10%;
     .title {
-      font-family: Belong Sans;
+      font-family: 'Montserrat', sans-serif;
       font-style: normal;
       font-weight: 800;
-      font-size: 88px;
+      font-size: 85px;
       line-height: 101.3%;
       text-align: center;
       color: #ffffff;
@@ -37,6 +37,10 @@
       font-size: 16px;
       line-height: 19px;
       border-color: #ffffff;
+      &:hover {
+        color: $primaryBtn;
+        border-color: $primaryBtn;
+      }
     }
   }
   @media only screen and (max-width: 480px) {

@@ -1,7 +1,10 @@
 #Navbar {
   background: initial;
-  position: sticky;
-  top: 0;
+  .navbar-item img {
+    min-height: 68px;
+    min-width: 170px;
+  }
+
   a {
     color: #ffffff;
     font-size: 14px;

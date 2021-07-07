@@ -1,6 +1,15 @@
 @charset "utf-8";
 @import '~bulma/bulma';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@mixin flexCenter($dir) {
+  display: flex;
+  flex-direction: $dir;
+  justify-content: center;
+  align-items: center;
+}
+$primaryBtn: #59a0d5;
+$textBlue: #112e66;
 html,
 body {
   padding: 0;
@@ -15,19 +24,16 @@ a {
 }
 .button {
   cursor: pointer;
+  border-radius: 0;
+  &:hover {
+    border: 1px solid;
+    border-color: $primaryBtn;
+  }
 }
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-@mixin flexCenter($dir) {
-  display: flex;
-  flex-direction: $dir;
-  justify-content: center;
-  align-items: center;
-}
-$primaryBtn: #59a0d5;
-$textBlue: #112e66;
 
 @import './hero';
 @import './navbar';
