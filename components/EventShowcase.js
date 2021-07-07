@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Image from 'next/image';
-import eventVideo1 from '../public/images/event-video-1.png'
-import eventVideo2 from '../public/images/event-video-2.png'
-import eventVideo3 from '../public/images/event-video-3.png'
+import eventVideo1 from '../public/images/event1.png'
+import eventVideo2 from '../public/images/event2.png'
+import eventVideo3 from '../public/images/event3.png'
 
 export default class EventShowcase extends Component {
     render() {
@@ -48,7 +48,7 @@ export default class EventShowcase extends Component {
                         </div>
                         
                     </div>
-                    <button className="button is-info has-text-centered">View All Events</button>
+                    <button className="button is-info">View All Events</button>
                 </div>
             </section>
         )
