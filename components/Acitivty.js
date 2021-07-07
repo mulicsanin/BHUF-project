@@ -60,24 +60,24 @@ export default class Acitivty extends Component {
                                 <div className="column">
                                     <div class="card">
                                         <div class="card-image">
-                                            <figure class="image is-6by2">
+                                            <figure className="image is-6by2">
                                                 <Image src={activity1}/>
                                             </figure>
                                         </div>
-                                        <div class="card-content">
-                                            <div class="media">
-                                                <div class="media-left">
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-left">
                                                     <div className="calendar">
                                                         <div className="num">27</div>
                                                         <div className="month">NOV</div>
                                                     </div>
                                                 </div>
-                                                <div class="media-content">
-                                                    <p class="title is-4">Check In For New Members</p>
+                                                <div className="media-content">
+                                                    <p className="title is-4">Check In For New Members</p>
                                                 </div>
                                             </div>
 
-                                            <div class="content">
+                                            <div className="content">
                                                 Ut condimentum proin magna diam, cursus mattis neque non leo. Porta aliquam aliquet sit sed diam. Ac eu dictum aenean nibh ridiculus vitae at elementum id.
                                             </div>
                                             <button className="button"><FontAwesomeIcon icon={faArrowAltCircleRight} style={{ color: '#59a0d5', height:'20px', marginRight: '10px'}}/> READ MORE</button>
@@ -85,26 +85,26 @@ export default class Acitivty extends Component {
                                     </div>
                                 </div>
                                 <div className="column">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <figure class="image is-6by2">
-                                                <Image src={activity2}/>
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image is-6by2">
+                                                <Image src={activity2} alt="activity"/>
                                             </figure>
                                         </div>
-                                        <div class="card-content">
-                                            <div class="media">
-                                                <div class="media-left">
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-left">
                                                     <div className="calendar">
                                                         <div className="num">4</div>
                                                         <div className="month">DEC</div>
                                                     </div>
                                                 </div>
-                                                <div class="media-content">
-                                                    <p class="title is-4">BHUF Coaching Seminar</p>
+                                                <div className="media-content">
+                                                    <p className="title is-4">BHUF Coaching Seminar</p>
                                                 </div>
                                             </div>
 
-                                            <div class="content">
+                                            <div className="content">
                                             Sit feugiat massa feugiat ipsum. Sed malesuada ut molestie leo lacinia a egestas. Lectus ut sed scelerisque adipiscing suspendisse faucibus a pharetra, convallis. Imperdiet urna 
                                             </div>
                                             <button className="button"><FontAwesomeIcon icon={faArrowAltCircleRight} style={{ color: '#59a0d5', height:'20px', marginRight: '10px'}}/> READ MORE</button>
@@ -112,26 +112,26 @@ export default class Acitivty extends Component {
                                     </div>
                                 </div>
                                 {/* <div className="column">
-                                    <div class="card">
-                                        <div class="card-image">
-                                            <figure class="image is-6by2">
+                                    <div className="card">
+                                        <div className="card-image">
+                                            <figure className="image is-6by2">
                                                 <Image src={activity3}/>
                                             </figure>
                                         </div>
-                                        <div class="card-content">
-                                            <div class="media">
-                                                <div class="media-left">
+                                        <div className="card-content">
+                                            <div className="media">
+                                                <div className="media-left">
                                                     <div className="calendar">
                                                         <div className="num">8</div>
                                                         <div className="month">DEC</div>
                                                     </div>
                                                 </div>
-                                                <div class="media-content">
-                                                    <p class="title is-4">Digital Learning at the Forefront of Business</p>
+                                                <div className="media-content">
+                                                    <p className="title is-4">Digital Learning at the Forefront of Business</p>
                                                 </div>
                                             </div>
 
-                                            <div class="content">
+                                            <div className="content">
                                             Scelerisque arcu, turpis quis sed et adipiscing. In mattis tincidunt at orci ullamcorper. Dolor eu vestibulum vehicula at amet odio. Fermentum quam urna scelerisque tempor amet
                                             </div>
                                             <button className="button"><FontAwesomeIcon icon={faArrowAltCircleRight} style={{ color: '#59a0d5', height:'20px', marginRight: '10px'}}/> READ MORE</button>

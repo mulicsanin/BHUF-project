@@ -12,11 +12,11 @@ export default class EventShowcase extends Component {
                     <p className="tit">EVENT SHOWCASE</p>
                     <div className="columns">
                         <div className="column" style={{marginBottom:'50px'}}>
-                            <div class="card">
-                                <div class="card-image">
+                            <div className="card">
+                                <div className="card-image">
                                     <Image src={eventVideo1} width={432} height={250}/>
                                 </div>
-                                <div class="content">
+                                <div className="content">
                                     <p className="title">Dictum proin nibh amet</p>
                                     <p className="subtitle">Massa elit arcu diam enim nunc ipsum at libero nec.</p>
                                 </div>
@@ -24,11 +24,11 @@ export default class EventShowcase extends Component {
                         </div>
 
                         <div className="column">
-                            <div class="card">
-                                <div class="card-image">
+                            <div className="card">
+                                <div className="card-image">
                                     <Image src={eventVideo2} width={432} height={250}/>
                                 </div>
-                                <div class="content">
+                                <div className="content">
                                     <p className="title">Semper turpis nulla vel</p>
                                     <p className="subtitle">Diam enim nunc ipsum at libero nec.</p>
                                 </div>
@@ -36,11 +36,11 @@ export default class EventShowcase extends Component {
                         </div>
 
                         <div className="column">
-                            <div class="card">
-                                <div class="card-image">
+                            <div className="card">
+                                <div className="card-image">
                                     <Image src={eventVideo3} width={432} height={250}/>
                                 </div>
-                                <div class="content">
+                                <div className="content">
                                     <p className="title">Donec ultrices tristique amet</p>
                                     <p className="subtitle">Erat neque aenean libero a sapien.</p>
                                 </div>
