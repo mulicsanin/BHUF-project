@@ -58,8 +58,8 @@ export default class Acitivty extends Component {
                         <div className="column is-12-tablet setM">
                             <div className="columns ">
                                 <div className="column">
-                                    <div class="card">
-                                        <div class="card-image">
+                                    <div className="card">
+                                        <div className="card-image">
                                             <figure className="image is-6by2">
                                                 <Image src={activity1}/>
                                             </figure>
