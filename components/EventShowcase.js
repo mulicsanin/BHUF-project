@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import Image from 'next/image';
-import eventVideo1 from '../public/images/event1.png'
-import eventVideo2 from '../public/images/event2.png'
-import eventVideo3 from '../public/images/event3.png'
+import eventVideo1 from './../public/images/event1.png'
+import eventVideo2 from './../public/images/event2.png'
+import eventVideo3 from './../public/images/event3.png'
 
 export default class EventShowcase extends Component {
     render() {
